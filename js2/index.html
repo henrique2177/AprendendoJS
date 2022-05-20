@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>..Travel..</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" style type="text/css" href="../js2/css/style.css">
+</head>
+
+<body>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- codigo de cada slide com foto e texto captado -->
+        <div class="mySlides">
+            <img src="../javascript\js2\images/js2/images/bg1.jpg" class="foto">
+            <div class="text">texto exemplo 1</div>
+        </div>
+
+        <div class="mySlides">
+
+            <img src="../js2/images/bg2.jpg" class="foto">
+            <div class="text">texto exemplo 2</div>
+        </div>
+
+        <div class="mySlides">
+            <img src="../js2/images/bg3.jpg" class="foto">
+            <div class="text">texto exemplo 3</div>
+        </div>
+
+        <!-- botoes proximo e anterior -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- circulos de navegação dos slides -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</body>
+
+</html>
+<script src="js/carousel.js"></script>
